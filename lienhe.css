@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+:root{
+   
+    --nav-font-size:15px;
+    --nav-title-size:32px;
+    --normal-text:15px;
+    --font-title-wight: 700;
+    --font-family: 'Open Sans';
+    --color-light:#E9C063;
+    --color-red:#800000;
+    --color-aa: #303030;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;  
+}
+a{
+   text-decoration: none;  
+
+}
+body{
+    font-family: var(--font-family);
+}
+.justify-content{
+    justify-content: space-between;
+}
+.container{
+    margin:  auto;
+    max-width :1200px;
+    margin: auto;
+
+}
+
+
+.flex{
+    display: flex;
+}
+.logo{
+    width: 200px;
+    height: 48px;
+}
+.list-menu{
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    justify-content: space-between;
+    align-items: center;
+}
+.bar-item{
+    align-items:center;
+    text-transform: uppercase;
+    color: white;
+display: flex;
+font-family: Open Sans;
+font-size: 14px;
+line-height: 25px;
+margin: 18px 14px 18px 0px;
+padding: 4px 5px;
+text-align: left;
+background-color: aquamarine;
+}
+.bar-item:hover{
+    color: var(--color-light);
+
+}
+
+.lh{
+    text-align: center;
+    align-items: center;
+    padding : 25px 60px 20px;
+    color:var(--color-aa);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    line-height:25px;
+    margin:0px 14.2px;
+    font-size:14px;
+
+}
+
+  .grid-container-LH {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color:white;
+    padding: 0px;
+  }
+  
+  .grid-item {
+    border:  solid;
+    margin-left: 60px;
+    background-color:white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 0px;
+    font-size: 30px;
+    text-align: left;
+    font-family: Open Sans;
+font-size: 14px;
+line-height: 25px;
+
+  }
+  .grid{
+      width: 1000px;
+      max-width: 100%;
+      margin: 0 auto;
+
+  }
+
+  /*footer*/
+
+
+  .logo1{
+    width: 200px;
+    height: 200px;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    List-style: none;
+}
+
+
+ul{
+	list-style: none;
+}
+.footer{
+    padding: 40px 0;
+}
+.footer-col{
+   width: 200px;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #800000;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 300px;
+	position: relative;
+}
+.footer__heading{
+	font-size: 18px;
+	color: #800000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer__heading__1{
+	font-size: 18px;
+	color: #800000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    margin-top : 20px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+    padding: 0 0 1px;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+  .button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #6c1f10;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .footer-row-1{
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    bottom:50px;
+    width: 100%;
+    height: 60px;
+    padding:0px;
+    background-color: #6c1f10;
+}
+.iems-cuoi p{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 25px;
+    
+    
+    
+
+}
+
+/*responsive*/
+/* @media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+} */
